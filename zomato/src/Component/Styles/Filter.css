@@ -1,0 +1,242 @@
+/*top section*/
+/* .taskbar {
+  text-align: right;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.loginfil {
+  border: 0ch;
+  background-color: transparent;
+  color: white;
+  font-size: medium;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+.accountfil {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: medium;
+
+
+}
+
+.logofil {
+  border: 2px solid white;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(241, 97, 53);
+  font-size: 30px;
+  font-style: normal;
+  padding: 2px;
+  font-family: poppins;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  margin: auto;
+  margin-left: 5%;
+} */
+
+/*container top section ends*/
+/*mid portion left filter panel*/
+.verticalgrid {
+  display: grid;
+  height: 620px;
+  width: 318px;
+  box-shadow: 0 3px 0 6px rgb(245, 241, 241);
+  background-color: rgba(122, 75, 31, 0.341);
+  border: 3px solid rgba(122, 75, 31, 0.341);
+  padding: 20px;
+}
+
+.filterpanel {
+  display: inline-grid;
+  font-size: larger;
+  height: auto;
+  width: 318px;
+  box-shadow: 0 3px 0 6px rgb(245, 241, 241);
+  background-color: rgba(122, 75, 31, 0.341);
+  border: 2px solid rgba(122, 75, 31, 0.341);
+}
+
+.cusine,
+.cost,
+.sort,
+.filterpanel {
+  font-style: oblique;
+  font-weight:bolder;
+  font-size: larger;
+  /* margin-left: 10px; */
+}
+
+.checkbox,
+.radio {
+  font-size: medium;
+  margin-left: 50px;
+}
+
+.food {
+  position: absolute;
+  top: 120px;
+  left: 400px;
+  
+}
+
+.food-content-fil {
+  height: 200px;
+  width: 765px;
+  box-shadow: 0 3px 0 6px rgb(245, 241, 241);
+  background-color: rgba(122, 75, 31, 0.341);
+  /* margin-right: 30px; */
+  margin-bottom: 30px;
+  position: relative;
+  border-radius:10px;
+  border: 2px solid rgba(122, 75, 31, 0.341);
+}
+
+.img-fil {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  margin: 25px 29px 0 0;
+  padding: 5px;
+}
+
+.h4-fil {
+  position: absolute;
+  top: -10px;
+  left: 190px;
+  height: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(10, 0, 0);
+
+}
+
+.description-fil {
+  position: absolute;
+  top: 50px;
+  left: 190px;
+  max-width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2; */
+  letter-spacing: normal;
+  text-align: left;
+  /* color: rgb(110, 110, 108); */
+}
+
+.buttons-fil {
+  /* position: absolute; */
+  /* left: 650px;
+  top:auto; */
+  display: flex;
+  gap: 5px;
+  margin-left:210px;
+  
+}
+
+.lowersection-fil {
+  /* margin-top:auto; */
+  /* top: auto; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(170, 4, 4);
+  box-shadow: 0 3px 0 6px rgb(245, 241, 241);
+  background-color: rgba(122, 75, 31, 0.341);
+  border: 2px solid rgba(122, 75, 31, 0.341);
+  height: 450px;
+  width:800px;
+  padding: 150px;
+}
+
+/*@media only screen and (min-width:320px) and (max-width:420px){
+      .restaurants{display:inline-grid;}
+  
+      .food{
+          position:unset;top: 100px;left:100px;}
+      .buttons{position:unset;}
+      .food-content{width:105%;}.verticalgrid{display:none;}
+      *.filterpanel{width:450px;}
+  }*/
+/* @media only screen and (min-width:320px){
+       .restaurants{display:inline-grid;}
+  
+       .food{
+           position:unset;top: 100px;left:100px;}
+       .buttons{position:unset;}
+       .food-content{width:auto;height: auto;}.verticalgrid{display:none;}
+       *.filterpanel{width:450px;}}*/
+@media only screen and (max-width: 600px) {
+  .restaurants {
+    display: inline-grid;
+  }
+
+  .food {
+    position: unset;
+    top: 100px;
+    left: 100px;
+  }
+
+  .buttons-fil {
+    position: unset;
+  }
+
+  .food-content-fil {
+    width: 105%;
+  }
+
+  .verticalgrid {
+    display: none;
+  }
+
+  .filterpanel {
+    width: 465px;
+    background-color: rgba(122, 75, 31, 0.341);
+    box-shadow: 0 6px 10px 0 dimgray;
+    border: 3px solid rgb(207, 206, 204);
+  }
+}
+
+/*
+  @media only screen and (max-width:400px){
+      .restaurants{display:inline-grid;}
+  
+      .food{
+          position:unset;top: 100px;left:100px;}
+      .buttons{position:unset;}
+      .food-content{width:200%;}.verticalgrid{display:none;}
+      *.filterpanel{width:450px;}}*/
+/*@media only screen and (min-width: 620px) {
+      .food,.food-content,.buttons{width:50%;}
+  .h4,.description{width:auto}}*/
+/*@media all and (min-width:150px){.verticalgrid,
+      .filterpanel,.food,.food-content,.img,.h4,.description,{display:grid;}
+  }*/
+/*@media only screen and (min-width: 1200px) {verticalgrid,
+      .filterpanel,.food,.food-content,.h4,.description{width:100%;}}*/

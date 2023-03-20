@@ -1,0 +1,153 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.home {
+    background-image: url(home1.jpg);
+    height: 350px;
+    width: 100%;
+    text-align: right;
+    opacity: 0.8;
+}
+
+/* button {
+    margin: 8px;
+} */
+
+/* .login{border: 0ch;
+                    background-color: transparent;
+                    color: white;}
+                    .account{background-color: transparent;color: white;
+                    border: 1px solid white;} */
+.logo {
+    border: 2px solid rgba(218, 107, 4, 0.709);
+    margin: auto;
+    /* margin-top: 20px; */
+    height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 600px;
+    border-radius: 50px;
+    background-color: rgba(218, 107, 4, 0.709);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(99, 8, 184);
+    font-size: 40px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.location {
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+
+.searchInput::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: small;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    color: hsl(30, 90%, 49%);
+    font-size: 25px;
+    padding-left:0;
+}
+
+
+.search1 {
+    font-size: 30px;
+    font-weight:small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(30, 90%, 49%);
+    margin-right: 630px;
+    
+    }
+
+.bottom {
+    margin: 50px 80px 80px 80px;
+}
+
+.quick {
+    height: 43px;
+    margin-left: 30px;
+    font-family: poppins;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: brown;
+}
+
+.text {
+    margin-left: 30px;
+    height: 20px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: grey;
+}
+
+/* .grid{margin:auto;}
+                .food{display:inline;} */
+.food-content {
+    height: 200px;
+    width: 350px;
+    box-shadow: 2px 3px 2px 3px rgba(122, 75, 31, 0.341);
+    background-color: rgba(122, 75, 31, 0.341);
+    margin-right: 30px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin: 30px 29px 0 0;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 3px 2px 3px 2px rgba(122, 75, 31, 0.341);
+}
+
+.h4 {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: crimson;
+}
+
+.description {
+    position: absolute;
+    top: 70px;
+    left: 190px;
+    max-width: 190px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: rebeccapurple;
+}
+
